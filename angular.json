@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js",
+              "src/assets/js/aos.js",
+              "src/assets/js/jquery-1.12.4.min.js"
+            ]
           },
           "configurations": {
             "production": {
