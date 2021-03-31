@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+input, textarea, button {
+    outline: none !important;
+}
+
+.global-color {
+    color: rgba(234,87,41);
+}
+
 .page {
     padding: 48pt 0;
 }
@@ -8,3 +16,4 @@
     width: 10rem;
     border-top: 1px solid rgba(234, 81, 47);
 }
+

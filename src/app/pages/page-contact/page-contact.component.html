@@ -46,69 +46,65 @@
         </div>
     </div>
 
-        <!-- start contact form -->
-        <div class="container margin-top-6">
-            <div class="col-12 d-flex">
-                <div class="col-1"></div>
-                <div class="col-10 d-flex shadow-lg p-5 mb-5 bg-white rounded">
-                        <div class="col-2"></div>
-                        <div class="col-8">
-                            <h2 class="mt-2">Fale connosco</h2>
-                            <hr class="section-line-divider">
-                            <form [formGroup]="contactForm" class="contact-form validate-form mt-5">
-                                <div class="col-6 pr-3">
-                                    <div class="contact-sector">
-                                        <span class="contact-title">Nome<span class="massil-color"> *</span></span>
-                                        <input class="contact-input" formControlName="name" type="text">
-                                        <span class="contact-focus-input"></span>
-                                    </div>
+    <div class="container contact-margin">
+        <div class="col-12 d-flex">
+            <div class="col-1"></div>
+            <div class="col-10 d-flex shadow-lg p-5 mb-5 bg-white rounded">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <h2 class="text-center mt-2">Fale connosco</h2>
+                        <hr class="contact-divider">
+                        <form [formGroup]="contactForm" class="contact-form mt-5">
+                            <div class="col-6 pr-3">
+                                <div class="contact-field">
+                                    <span class="contact-field-title">Nome<span class="global-color"> *</span></span>
+                                    <input class="contact-field-input" formControlName="name" type="text">
+                                    <span class="contact-focus-input"></span>
                                 </div>
-        
-                                <div class="col-6 pl-3">
-                                    <div class="contact-sector">
-                                        <span class="contact-title">Email<span class="massil-color"> *</span></span>
-                                        <input class="contact-input" formControlName="email" type="text">
-                                        <span class="contact-focus-input"></span>
-                                    </div>
+                            </div>
+    
+                            <div class="col-6 pl-3">
+                                <div class="contact-field">
+                                    <span class="contact-field-title">Email<span class="global-color"> *</span></span>
+                                    <input class="contact-field-input" formControlName="email" type="text">
+                                    <span class="contact-focus-input"></span>
                                 </div>
-        
-                                <div class="col-6 pr-3">
-                                    <div class="contact-sector">
-                                        <span class="contact-title">Assunto<span class="massil-color"> *</span></span>
-                                        <input class="contact-input" formControlName="subject" type="text">
-                                        <span class="contact-focus-input"></span>
-                                    </div>
+                            </div>
+    
+                            <div class="col-6 pr-3">
+                                <div class="contact-field">
+                                    <span class="contact-field-title">Assunto<span class="global-color"> *</span></span>
+                                    <input class="contact-field-input" formControlName="subject" type="text">
+                                    <span class="contact-focus-input"></span>
                                 </div>
-        
-                                <div class="col-6 pl-3">
-                                    <div class="contact-sector">
-                                        <span class="contact-title">Telemóvel</span>
-                                        <input class="contact-input" formControlName="phone" type="text">
-                                        <span class="contact-focus-input"></span>
-                                    </div>
+                            </div>
+    
+                            <div class="col-6 pl-3">
+                                <div class="contact-field">
+                                    <span class="contact-field-title">Telemóvel</span>
+                                    <input class="contact-field-input" formControlName="phone" type="text">
+                                    <span class="contact-focus-input"></span>
                                 </div>
-        
-                                <div class="col-12 pl-3 pr-3">
-                                    <div class="contact-sector">
-                                        <span class="contact-title">Mensagem<span class="massil-color"> *</span></span>
-                                        <textarea class="contact-input" formControlName="message" type="text"></textarea>
-                                        <span class="contact-focus-input"></span>
-                                    </div>
+                            </div>
+    
+                            <div class="col-12 pl-3 pr-3">
+                                <div class="contact-field">
+                                    <span class="contact-field-title">Mensagem<span class="global-color"> *</span></span>
+                                    <textarea class="contact-field-input" formControlName="message" type="text"></textarea>
+                                    <span class="contact-focus-input"></span>
                                 </div>
-                                <div class="container-contact-form-btn mt-2">
-                                    <button class="contact-form-btn" (click)="onSend()">
-                                        <span>
-                                            Submit
-                                            <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                                        </span>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-2"></div>
-                </div>
-                <div class="col-1"></div>
+                            </div>
+                            <div class="contact-container-btn">
+                                <button class="contact-btn" (click)="onSend()">
+                                    <span>Contactar</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-2"></div>
             </div>
+            <div class="col-1"></div>
         </div>
-        <!-- end contact form -->
+    </div>
+
 </div>
