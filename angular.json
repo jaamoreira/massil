@@ -34,8 +34,7 @@
             ],
             "scripts": [
               "src/assets/js/main.js",
-              "src/assets/js/aos.js",
-              "src/assets/js/jquery-1.12.4.min.js"
+              "src/assets/js/aos.js"
             ]
           },
           "configurations": {
