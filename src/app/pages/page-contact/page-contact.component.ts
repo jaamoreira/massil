@@ -60,6 +60,12 @@ export class PageContactComponent implements OnInit {
 
 
   get f() { return this.contactForm.controls; }
+
+  resolvedCaptcha(captchaResponse: string) {
+    if (captchaResponse) {
+      this.captchaResult = captchaResponse;
+    }
+  }
   
   private createForm() {
     this.contactForm = this.fb.group({
@@ -74,4 +80,6 @@ export class PageContactComponent implements OnInit {
   private onReset() {
     this.contactForm.reset();
   }
+
+  
 }
