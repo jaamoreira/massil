@@ -1,7 +1,7 @@
 (function ($)
   { "use strict"
     $(window).on('load', function () {
-      $('#loader').delay(900).fadeOut('slow');
+      $('#loader').fadeOut('slow');
       $('.site-body').delay(1200).css({
         'display': 'inherit'
       });
