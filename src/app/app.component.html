@@ -1,13 +1,13 @@
 <!-- Loader Begin -->
-<!-- <div class="loader" id="teste">
+<div class="loader" id="loader">
   <div class="loader-position"><img class="loader-img" src="assets/img/massilLogo.png" alt=""></div>
   <div class="loader-ring">
   </div>
-</div> -->
+</div>
 <!-- Loader End -->
 
 <div class="site-body">
-  <nav class="navbar navbar-expand-md navbar-dark">
+  <nav class="navbar navbar-expand-md navbar-dark" [ngClass]="{'fixed-top': route != '/inicio'}">
     <div class="container">
       <a href="#" class="navbar-brand">
         <img class="loader-img" src="assets/img/massilLogo.png" alt="">

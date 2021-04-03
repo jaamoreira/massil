@@ -9,12 +9,14 @@ import { PageAboutComponent } from './pages/page-about/page-about.component';
 import { PageContactComponent } from './pages/page-contact/page-contact.component';
 import { PageGalleryComponent } from './pages/page-gallery/page-gallery.component';
 import { PageHomeComponent } from './pages/page-home/page-home.component';
+import { PageProductComponent } from './pages/page-product/page-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageHomeComponent,
     PageAboutComponent,
+    PageProductComponent,
     PageGalleryComponent,
     PageContactComponent
   ],

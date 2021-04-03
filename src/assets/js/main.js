@@ -1,23 +1,12 @@
-// (function ($)
-//   { "use strict"
-//     $(window).on('load', function () {
-//     //   $('#loader').delay(900).fadeOut('slow');
-//     //   $('body').delay(900).css({
-//     //     'overflow': 'visible'
-//     //   });
-//     });
-// })(jQuery);
-
-
-window.addEventListener('load', function() {
-    console.log('ola');
-    var element = document.getElementById('teste');
-    //element.fade('slow');
-    // meter load inviivel com um fade out via css
-    // meter o content visivel
-});
-
-
+(function ($)
+  { "use strict"
+    $(window).on('load', function () {
+      $('#loader').delay(900).fadeOut('slow');
+      $('.site-body').delay(1200).css({
+        'display': 'inherit'
+      });
+    });
+})(jQuery);
 
 jQuery(function($) {
     $(window).on('scroll', function() {
