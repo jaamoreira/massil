@@ -72,6 +72,7 @@ Navbar
 }
 
 .navbar-toggler-button {
+    display: none;
     position: relative;
     height: 50px;
     width: 50px;
@@ -84,27 +85,27 @@ Navbar
     position: absolute;
     left: 15px;
     right: 15px;
-    height: 2px;
+    height: 4px;
     background-color: #fff;
     opacity: 0;
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
     transition: all 0.3s ease-in;
 }
 
 .navbar-toggler-button .menu-icon-bar:first-child {
     opacity: 1;
-    -webkit-transform: translateY(-1px) rotate(45deg);
-    -ms-sform: translateY(-1px) rotate(45deg);
-    transform: translateY(-1px) rotate(45deg);
+    -webkit-transform: translateY(-3px) rotate(45deg);
+    -ms-sform: translateY(-3px) rotate(45deg);
+    transform: translateY(-3px) rotate(45deg);
 }
 
 .navbar-toggler-button .menu-icon-bar:last-child {
     opacity: 1;
-    -webkit-transform: translateY(-1px) rotate(135deg);
-    -ms-sform: translateY(-1px) rotate(135deg);
-    transform: translateY(-1px) rotate(135deg);
+    -webkit-transform: translateY(-3px) rotate(135deg);
+    -ms-sform: translateY(-3px) rotate(135deg);
+    transform: translateY(-3px) rotate(135deg);
 }
 
 .navbar-toggler-button.collapsed .menu-icon-bar {
@@ -112,9 +113,9 @@ Navbar
 }
   
 .navbar-toggler-button.collapsed .menu-icon-bar:first-child {
-    -webkit-transform: translateY(-7px) rotate(0);
-    -ms-sform: translateY(-7px) rotate(0);
-    transform: translateY(-7px) rotate(0);
+    -webkit-transform: translateY(-10px) rotate(0);
+    -ms-sform: translateY(-10px) rotate(0);
+    transform: translateY(-10px) rotate(0);
 }
 
 .navbar-toggler-button.collapsed .menu-icon-bar:last-child {
@@ -155,12 +156,38 @@ Navbar
     }
 
     .navbar-nav {
-        padding: 0 20px;
-        background-color: rgba(0, 0, 0, .9);
+        margin-top: 5px;
+        padding: 5px 20px;
+        background-color: #09162a;
+        align-items: center;
+        border-top: 1px solid white;
     }
 
     .navbar.fixed-top .navbar-nav {
         background: transparent;
+    }
+
+    .navbar-toggler-button {
+        display: block;
+        background-color: #09162a;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .nav-link {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-toggler-button {
+        display: none;
+    }
+
+    .collapse.in {
+        display: flex !important;
     }
 }
 
