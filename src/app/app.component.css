@@ -313,9 +313,10 @@ Footer
 }
 
 .footer-link {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: silver;
     text-decoration: none;
+    margin-right: 1.2rem;
 }
 
 @media (max-width: 600px) {
@@ -326,6 +327,7 @@ Footer
 
     .footer-link {
         margin-bottom: 0.8rem;
+        margin-right: 0rem;
     }
 
     .footer-link:last-child {
