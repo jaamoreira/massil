@@ -13,12 +13,6 @@ export class PageContactComponent implements OnInit {
   contactForm: FormGroup = new FormGroup({});
   captchaResult: String = '';
 
-  // contactName: string;
-  // contactCompany: string;
-  // contactEmail: string;
-  // contactPhone: string;
-  // contactMessage: string;
-
   constructor(private fb: FormBuilder, private router: Router) {
     this.createForm();
 

@@ -1,8 +1,9 @@
-/*--/gallery--*/
-/* .portfolio-categ {
-    margin: 0 auto;
-    text-align: center;
-} */
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 0rem;
+}
 
 .gallery-area li figure {
     margin: 0;

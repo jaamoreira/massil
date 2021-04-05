@@ -27,10 +27,9 @@
     text-align: center;
 }
 
-.home-about-image {
-    width: 30em;
-    height: 30em;
-    padding: 16pt;
+.home-about-img {
+    width: 75%;
+    margin-top: 1.5rem;
 }
 
 .home-history {
