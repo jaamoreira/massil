@@ -67,7 +67,7 @@
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color: rgba(234,87,41);;
 }
   
   .about-timeline > li .about-timeline-image h4 {
